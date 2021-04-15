@@ -1,0 +1,94 @@
+/* $color1: #ffba08;
+$color3: #1a1f16;
+$color2: #1c448e; //rgba(4, 150, 255,0.5);
+$border: white; 
+ */
+/* $color1: #f2c14e; */
+/* $color1: #05386B;
+//$color2: #5fad56;
+$color2: #5CDB95;
+$color3: hsla(114, 66%, 31%, 0.4);
+$border: white; */
+/* $color1: #F18805;
+//$color2: rgba(240, 234, 234, 0.3);
+$color2: #F4F4F4;
+$color3: #f0a202;
+$border: black; */
+/* Nico colors */
+/* $color1:#FBEEC1;
+$color2: #659DBD;
+$color3: #DAAD86;
+$border: black; */
+/* $color1: #EDC7B7;
+$color2:#EEE2DC;
+$color3: #AC3B61;
+$border: black; */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: #242582;
+}
+
+main {
+  height: 80vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35% 65%;
+      grid-template-columns: 35% 65%;
+  background-color: #553D67;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form div {
+  width: 90%;
+  height: 30%;
+  background: #F64C72;
+  border-radius: 20px;
+  border: 2px black solid;
+}
+
+.ads {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ads div {
+  width: 80%;
+  height: 80%;
+  background: #F64C72;
+  border-radius: 20px;
+  border: 2px black solid;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #242582;
+}
+/*# sourceMappingURL=style.css.map */

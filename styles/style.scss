@@ -1,0 +1,97 @@
+//primera propuesta
+/* $color1: #ffba08;
+$color3: #1a1f16;
+$color2: #1c448e; //rgba(4, 150, 255,0.5);
+$border: white; 
+ */
+//segunda propuesta
+/* $color1: #f2c14e; */
+/* $color1: #05386B;
+//$color2: #5fad56;
+$color2: #5CDB95;
+$color3: hsla(114, 66%, 31%, 0.4);
+$border: white; */
+
+//tercera propuesta
+/* $color1: #F18805;
+//$color2: rgba(240, 234, 234, 0.3);
+$color2: #F4F4F4;
+$color3: #f0a202;
+$border: black; */
+
+/* Nico colors */
+//attempt 1
+$color1:#242582;
+$color2: #553D67;
+$color3: #F64C72;
+$border: black;
+
+//attempt 2
+/* $color1:#FBEEC1;
+$color2: #659DBD;
+$color3: #DAAD86;
+$border: black; */
+
+//attemt 3
+/* $color1: #EDC7B7;
+$color2:#EEE2DC;
+$color3: #AC3B61;
+$border: black; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    background-color: $color1;
+}
+
+main {
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    background-color: $color2;
+}
+
+.form {
+    display: flex;
+    padding-top: 50px;
+    align-content: center;
+    justify-content: center;
+
+    div {
+        width: 90%;
+        height: 30%;
+        background: $color3;
+        border-radius: 20px;
+        border: 2px $border solid;
+    }
+}
+
+.ads {
+    display: flex;
+    padding-top: 50px;
+    align-content: center;
+    justify-content: center;
+
+    div {
+        width: 80%;
+        height: 80%;
+        background: $color3;
+        border-radius: 20px;
+        border: 2px $border solid;
+    }
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: $color1;
+}
+
+
